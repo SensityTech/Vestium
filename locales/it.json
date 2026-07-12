@@ -420,6 +420,7 @@
   "git.state.dirty": "{count} file modificato/i",
   "git.step.committing": "Creazione del commit…",
   "git.step.init": "Inizializzazione del repository…",
+  "git.step.preparing": "Elenco dei file modificati…",
   "git.step.pulling": "Recupero delle modifiche remote…",
   "git.step.pushing": "Invio al repository remoto…",
   "git.step.staging": "Preparazione dei file (hash LFS degli asset)…",

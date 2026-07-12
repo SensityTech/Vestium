@@ -420,6 +420,7 @@
   "git.state.dirty": "{count} geänderte Datei(en)",
   "git.step.committing": "Commit wird erstellt…",
   "git.step.init": "Repository wird initialisiert…",
+  "git.step.preparing": "Geänderte Dateien werden aufgelistet…",
   "git.step.pulling": "Remote-Änderungen werden abgeholt…",
   "git.step.pushing": "Wird zum Remote-Repository gepusht…",
   "git.step.staging": "Dateien werden vorbereitet (LFS-Hashing der Assets)…",
