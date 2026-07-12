@@ -9,6 +9,7 @@
 <p align="center">
   <a href="https://github.com/SensityTech/Vestium/releases/latest"><img src="https://img.shields.io/github/v/release/SensityTech/Vestium?label=download&color=7c5dfa" alt="Latest release"></a>
   <a href="https://github.com/SensityTech/Vestium/releases"><img src="https://img.shields.io/github/downloads/SensityTech/Vestium/total?color=7c5dfa" alt="Downloads"></a>
+  <a href="https://discord.gg/rXbhzZdDVj"><img src="https://img.shields.io/badge/Discord-join-5865F2?logo=discord&logoColor=white" alt="Discord"></a>
 </p>
 
 <p align="center">
@@ -46,9 +47,13 @@ Italian and Polish. The community dictionaries live in [`locales/`](locales/)
 — spotted a bad translation or want to add your language? PRs are welcome,
 see [locales/README.md](locales/README.md).
 
+## Community
+
+Join the **[Vestium Discord](https://discord.gg/rXbhzZdDVj)** — get help, share your packs, request features and follow updates.
+
 ## Issues & feedback
 
-Found a bug or want a feature? [Open an issue](https://github.com/SensityTech/Vestium/issues) — include your Vestium version and, when relevant, the console output (Ctrl+L in the app).
+Found a bug or want a feature? [Open an issue](https://github.com/SensityTech/Vestium/issues) or ask on the [Discord](https://discord.gg/rXbhzZdDVj) — include your Vestium version and, when relevant, the console output (Ctrl+L in the app).
 
 ## License
 
