@@ -16,6 +16,11 @@
   <img src="assets/banner.png" width="720" alt="Vestium">
 </p>
 
+<p align="center"><sub><b>TRUSTED BY</b></sub></p>
+<p align="center">
+  <a href="https://cilyamods.tebex.io/" title="Cilya Mods"><img src="assets/partners/cilyamods.png" width="72" alt="Cilya Mods"></a>
+</p>
+
 ---
 
 ## Download
