@@ -323,7 +323,6 @@
   "duplicates.resolving": "Remplacement de {count} doublon(s) par des dummies…",
   "duplicates.resolving.short": "Remplacement en cours…",
   "duplicates.reveal": "Afficher dans la liste (la fenêtre reste ouverte)",
-  "duplicates.section": "{gender} — {count} doublons",
   "duplicates.showMore": "Afficher {count} groupe(s) de plus ({left} restants)",
   "duplicates.title": "Vêtements en double",
   "embedded.optimize": "Optimiser les embarquées",

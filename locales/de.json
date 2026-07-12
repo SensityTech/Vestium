@@ -323,7 +323,6 @@
   "duplicates.resolving": "{count} Duplikat(e) werden durch Dummies ersetzt…",
   "duplicates.resolving.short": "Wird ersetzt…",
   "duplicates.reveal": "In der Liste anzeigen (das Fenster bleibt offen)",
-  "duplicates.section": "{gender} — {count} Duplikate",
   "duplicates.showMore": "{count} weitere Gruppe(n) anzeigen ({left} verbleibend)",
   "duplicates.title": "Doppelte Kleidungsstücke",
   "embedded.optimize": "Eingebettete optimieren",

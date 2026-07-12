@@ -323,7 +323,6 @@
   "duplicates.resolving": "Zastępowanie {count} duplikat(ów) elementami dummy…",
   "duplicates.resolving.short": "Zastępowanie…",
   "duplicates.reveal": "Pokaż na liście (okno pozostaje otwarte)",
-  "duplicates.section": "{gender} — {count} duplikatów",
   "duplicates.showMore": "Pokaż kolejne {count} grup(y) (pozostało {left})",
   "duplicates.title": "Zduplikowane ubrania",
   "embedded.optimize": "Optymalizuj osadzone",

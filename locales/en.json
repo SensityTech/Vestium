@@ -323,7 +323,6 @@
   "duplicates.resolving": "Replacing {count} duplicate(s) with dummies…",
   "duplicates.resolving.short": "Replacing…",
   "duplicates.reveal": "Reveal in the list (the window stays open)",
-  "duplicates.section": "{gender} — {count} duplicates",
   "duplicates.showMore": "Show {count} more group(s) ({left} left)",
   "duplicates.title": "Duplicate garments",
   "embedded.optimize": "Optimize embedded",

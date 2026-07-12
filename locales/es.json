@@ -323,7 +323,6 @@
   "duplicates.resolving": "Reemplazando {count} duplicado(s) por dummies…",
   "duplicates.resolving.short": "Reemplazando…",
   "duplicates.reveal": "Mostrar en la lista (la ventana permanece abierta)",
-  "duplicates.section": "{gender} — {count} duplicados",
   "duplicates.showMore": "Mostrar {count} grupo(s) más ({left} restantes)",
   "duplicates.title": "Prendas duplicadas",
   "embedded.optimize": "Optimizar incrustadas",

@@ -323,7 +323,6 @@
   "duplicates.resolving": "Замена {count} дубликата(ов) на dummy…",
   "duplicates.resolving.short": "Замена…",
   "duplicates.reveal": "Показать в списке (окно останется открытым)",
-  "duplicates.section": "{gender} — {count} дубликатов",
   "duplicates.showMore": "Показать ещё {count} групп(ы) (осталось {left})",
   "duplicates.title": "Дубликаты одежды",
   "embedded.optimize": "Оптимизировать встроенные",

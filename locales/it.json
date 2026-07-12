@@ -323,7 +323,6 @@
   "duplicates.resolving": "Sostituzione di {count} duplicato/i con dummy…",
   "duplicates.resolving.short": "Sostituzione…",
   "duplicates.reveal": "Mostra nella lista (la finestra resta aperta)",
-  "duplicates.section": "{gender} — {count} duplicati",
   "duplicates.showMore": "Mostra ancora {count} gruppo/i ({left} rimanenti)",
   "duplicates.title": "Capi duplicati",
   "embedded.optimize": "Ottimizza incorporate",
