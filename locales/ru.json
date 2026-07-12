@@ -396,6 +396,7 @@
   "git.op.pushed": "Успешно отправлено — команда в актуальном состоянии.",
   "git.op.remoteSet": "Удалённый репозиторий настроен — «Отправить всё» будет публиковать в него.",
   "git.op.running": "Операция выполняется…",
+  "git.phase.lfsObjects": "Объекты LFS",
   "git.pull": "Получить",
   "git.remote": "Удалённый репозиторий",
   "git.remote.create.githubPrivate": "GitHub — приватный",

@@ -396,6 +396,7 @@
   "git.op.pushed": "Wysłano pomyślnie — zespół jest na bieżąco.",
   "git.op.remoteSet": "Skonfigurowano zdalne repozytorium — \"Wyślij wszystko\" będzie do niego publikować.",
   "git.op.running": "Operacja w toku…",
+  "git.phase.lfsObjects": "Obiekty LFS",
   "git.pull": "Pobierz",
   "git.remote": "Zdalne repozytorium",
   "git.remote.create.githubPrivate": "GitHub — prywatne",

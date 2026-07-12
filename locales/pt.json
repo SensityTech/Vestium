@@ -396,6 +396,7 @@
   "git.op.pushed": "Enviado com sucesso — a equipe está atualizada.",
   "git.op.remoteSet": "Remoto configurado — \"Enviar tudo\" vai publicar nele.",
   "git.op.running": "Operação em andamento…",
+  "git.phase.lfsObjects": "Objetos LFS",
   "git.pull": "Pull",
   "git.remote": "Remoto",
   "git.remote.create.githubPrivate": "GitHub — privado",
