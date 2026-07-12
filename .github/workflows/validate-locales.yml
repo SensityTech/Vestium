@@ -1,0 +1,62 @@
+name: Validate locales
+
+on:
+  pull_request:
+    paths:
+      - 'locales/**'
+  push:
+    branches: [main]
+    paths:
+      - 'locales/**'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+
+      - name: Validate every locale against en.json
+        run: |
+          node - <<'EOF'
+          const { readFileSync, readdirSync } = require('node:fs')
+          const { join } = require('node:path')
+
+          const dir = 'locales'
+          const en = JSON.parse(readFileSync(join(dir, 'en.json'), 'utf8'))
+          const placeholders = (text) =>
+            [...text.matchAll(/\{(\w+)\}/g)].map((m) => m[1]).sort().join(',')
+
+          let failed = false
+          for (const file of readdirSync(dir).filter((f) => f.endsWith('.json'))) {
+            if (file === 'en.json') continue
+            let dict
+            try {
+              dict = JSON.parse(readFileSync(join(dir, file), 'utf8'))
+            } catch (error) {
+              console.error(`✗ ${file}: invalid JSON — ${error.message}`)
+              failed = true
+              continue
+            }
+            const problems = []
+            for (const [key, value] of Object.entries(dict)) {
+              if (!(key in en)) problems.push(`unknown key "${key}"`)
+              else if (typeof value !== 'string' || value.trim() === '')
+                problems.push(`"${key}" must be a non-empty string`)
+              else if (placeholders(value) !== placeholders(en[key]))
+                problems.push(`"${key}" placeholder mismatch (expected {${placeholders(en[key])}} — got {${placeholders(value)}})`)
+            }
+            const coverage = ((Object.keys(dict).length / Object.keys(en).length) * 100).toFixed(1)
+            if (problems.length > 0) {
+              failed = true
+              console.error(`✗ ${file}: ${problems.length} problem(s)`)
+              for (const p of problems.slice(0, 25)) console.error(`   - ${p}`)
+            } else {
+              console.log(`✓ ${file}: ${Object.keys(dict).length} keys (${coverage}% coverage)`)
+            }
+          }
+          process.exit(failed ? 1 : 0)
+          EOF

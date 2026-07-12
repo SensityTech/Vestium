@@ -39,6 +39,13 @@ Vestium is a complete desktop studio for creating and managing GTA V addon cloth
 - **Built-in Git collaboration** — LFS preconfigured, one-click private repo creation, team sync warnings.
 - Bilingual **English/French**, dark & light themes, undo/redo everywhere.
 
+## Translations
+
+Vestium ships in English, French, Spanish, Russian, German, Portuguese,
+Italian and Polish. The community dictionaries live in [`locales/`](locales/)
+— spotted a bad translation or want to add your language? PRs are welcome,
+see [locales/README.md](locales/README.md).
+
 ## Issues & feedback
 
 Found a bug or want a feature? [Open an issue](https://github.com/SensityTech/Vestium/issues) — include your Vestium version and, when relevant, the console output (Ctrl+L in the app).
