@@ -110,6 +110,7 @@
   "bundle.packOption.replace": "{name} (заменяет {target})",
   "bundle.packSelect.hint": "Отображаемый pack — импорт идёт в этот pack (автоматический перенос при переполнении)",
   "bundle.reimport.badCollection": "Коллекция ресурса не читается — недопустимое имя DLC/коллекции",
+  "bundle.reimport.collectionSkipped": "Коллекция «{collection}» пропущена: {error}",
   "bundle.reimport.discovered": "Обнаружено ресурсов: {count} — идёт реимпорт…",
   "bundle.reimport.dlcTaken": "DLC «{dlc}» уже заменяется другим pack — только один pack на DLC",
   "bundle.reimport.done": "Ресурс реимпортирован в «{name}» (размещено: {count})",

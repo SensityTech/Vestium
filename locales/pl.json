@@ -110,6 +110,7 @@
   "bundle.packOption.replace": "{name} (zastępuje {target})",
   "bundle.packSelect.hint": "Wyświetlany pack — importy trafiają do tego packa (automatyczne przepełnienie)",
   "bundle.reimport.badCollection": "Nieczytelna kolekcja zasobu — nieprawidłowa nazwa DLC/kolekcji",
+  "bundle.reimport.collectionSkipped": "Pominięto kolekcję „{collection}”: {error}",
   "bundle.reimport.discovered": "Wykryto {count} zasobów — trwa ponowny import…",
   "bundle.reimport.dlcTaken": "Pewien pack już zastępuje DLC \"{dlc}\" — tylko jeden pack na DLC",
   "bundle.reimport.done": "Zasób ponownie zaimportowany do \"{name}\" ({count} umieszczonych)",

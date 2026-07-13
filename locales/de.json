@@ -110,6 +110,7 @@
   "bundle.packOption.replace": "{name} (ersetzt {target})",
   "bundle.packSelect.hint": "Angezeigtes Pack — Importe landen in diesem Pack (automatischer Überlauf)",
   "bundle.reimport.badCollection": "Collection der Ressource nicht lesbar — ungültiger DLC-/Collection-Name",
+  "bundle.reimport.collectionSkipped": "Kollektion „{collection}“ übersprungen: {error}",
   "bundle.reimport.discovered": "{count} Ressource(n) erkannt — Re-Import läuft…",
   "bundle.reimport.dlcTaken": "Ein Pack ersetzt bereits den DLC \"{dlc}\" — nur ein Pack pro DLC",
   "bundle.reimport.done": "Ressource in \"{name}\" re-importiert ({count} platziert)",

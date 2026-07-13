@@ -110,6 +110,7 @@
   "bundle.packOption.replace": "{name} (reemplaza {target})",
   "bundle.packSelect.hint": "Pack mostrado — las importaciones van a este pack (desbordamiento automático)",
   "bundle.reimport.badCollection": "Colección del recurso ilegible — nombre de DLC/colección no válido",
+  "bundle.reimport.collectionSkipped": "Colección «{collection}» omitida: {error}",
   "bundle.reimport.discovered": "{count} recurso(s) detectado(s) — reimportación en curso…",
   "bundle.reimport.dlcTaken": "Un pack ya reemplaza el DLC \"{dlc}\" — solo un pack por DLC",
   "bundle.reimport.done": "Recurso reimportado en \"{name}\" ({count} colocados)",
