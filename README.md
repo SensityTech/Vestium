@@ -60,6 +60,18 @@ Join the **[Vestium Discord](https://discord.gg/rXbhzZdDVj)** — get help, shar
 
 Found a bug or want a feature? [Open an issue](https://github.com/SensityTech/Vestium/issues) or ask on the [Discord](https://discord.gg/rXbhzZdDVj) — include your Vestium version and, when relevant, the console output (Ctrl+L in the app).
 
+## Credits & acknowledgments
+
+Vestium stands on the shoulders of the GTA modding community. Sincere thanks to:
+
+- **[CodeWalker](https://github.com/dexyfex/CodeWalker)** by *dexyfex* — Vestium's engine vendors **CodeWalker.Core** to read and write RAGE formats (YDD, YTD, YMT, YLD, YCD, RPF). Vestium simply wouldn't exist without it.
+- **[grzyClothTool](https://github.com/grzybeek/grzyClothTool)** by *grzybeek* — an excellent open-source clothing tool that inspired parts of Vestium's workflow. Vestium shares **no code** with it; everything is a clean-room reimplementation.
+- **DurtyClothTool** — the reference clothing tool whose feature set Vestium set out to match and then go beyond. Used as functional inspiration and a format reference only — no code reused.
+
+Built with **[three.js](https://threejs.org)** & **@react-three/fiber** (3D preview), **Magick.NET** (texture encoding), **Blender** (mesh decimation), **Electron**, **React**, **Vite** and **zustand**. Ships the **Manrope** typeface under the SIL Open Font License. Format knowledge comes from the FiveM / CitizenFX community and the clothing documentation at [docs.gta.clothing](https://docs.gta.clothing).
+
+Vestium is an independent project and is not affiliated with, endorsed by, or associated with any of the above, nor with Rockstar Games or Take-Two Interactive.
+
 ## License
 
 Vestium is proprietary software by SensityTech. This repository hosts the official builds and release notes only.
