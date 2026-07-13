@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "banner": null,
+  "creators": [
+    {
+      "id": "cilyamods",
+      "name": "Cilya Mods",
+      "taglines": {
+        "en": "Premium FiveM clothing packs",
+        "fr": "Packs de vêtements FiveM premium"
+      },
+      "logo": "assets/partners/cilyamods.png",
+      "url": "https://cilyamods.tebex.io/"
+    }
+  ]
+}
